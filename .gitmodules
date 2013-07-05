@@ -1,3 +1,6 @@
 [submodule "data/jquery.ime"]
 	path = data/jquery.ime
 	url = git@github.com:pravee-n/jquery.ime.git
+[submodule "data/jquery.uls"]
+	path = data/jquery.uls
+	url = https://github.com/pravee-n/jquery.uls
