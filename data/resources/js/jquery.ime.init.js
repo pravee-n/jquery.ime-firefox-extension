@@ -2,8 +2,8 @@ $( document ).ready( function () {
 	// Extend the ime preference system
 	$.extend( $.ime.preferences, {
 
-		save: function ( ) {
-			localStorage.setItem("imepreferences", JSON.stringify(this.registry) );
+		save: function () {
+			localStorage.setItem( 'imepreferences', JSON.stringify( this.registry ) );
 		},
 
 		load: function () {
@@ -17,7 +17,7 @@ $( document ).ready( function () {
 		var unique = [ $( 'html' ).attr( 'lang' ) || 'en' ],
 			previousIMELanguages;
 
-		previousIMELanguages =  $.ime.preferences.getPreviousLanguages() || [];
+		previousIMELanguages = $.ime.preferences.getPreviousLanguages() || [];
 		$.each( previousIMELanguages, function ( i, v ) {
 			if ( $.inArray( v, unique ) === -1 ) {
 				unique.push( v );
@@ -93,11 +93,11 @@ $( document ).ready( function () {
 			}
 
 			// notify addon script to inject required file
-			self.port.emit( "injectScript", $.ime.sources[inputmethodId].source );
+			self.port.emit( 'injectScript', $.ime.sources[inputmethodId].source );
 
 			// Callback function from addon script to notify whether
 			// script injected successfully or not.
-			self.port.on( "injectSciptCallback", function ( response ) {
+			self.port.on( 'injectSciptCallback', function ( response ) {
 				if ( response.injected ) {
 					// script injected successfully
 					eval( response.scriptToInject );
