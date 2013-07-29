@@ -1,12 +1,16 @@
+// var simpleStorage = require("sdk/simple-storage");
+
 $( document ).ready( function () {
 	// Extend the ime preference system
 	$.extend( $.ime.preferences, {
 
 		save: function () {
+			// simpleStorage.storage.imepreferences = JSON.stringify( this.registry );
 			localStorage.setItem( 'imepreferences', JSON.stringify( this.registry ) );
 		},
 
 		load: function () {
+			// this.registry = JSON.parse( simpleStorage.storage.imepreferences ) || this.registry;
 			this.registry = JSON.parse( localStorage.getItem( 'imepreferences' ) ) || this.registry;
 		}
 
