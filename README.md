@@ -20,6 +20,8 @@ After cloning the repository, you need to run the following commmands
 It would include the [jQuery.IME](https://github.com/wikimedia/jquery.ime) and 
 [jQuery.ULS](https://github.com/wikimedia/jquery.uls) libraries in the extension.
 
+Or you can simply download the source code as zip.
+
 
 Installation on Firefox
 -----------------------
