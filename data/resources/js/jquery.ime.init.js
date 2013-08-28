@@ -52,7 +52,8 @@ $( document ).ready( function () {
 	$.ime.preferences.load();
 	
 	function initializeIME() {
-
+		// initialize rangy incase document.ready has already been fired
+		// rangy.init();
 		$( 'body' ).on( 'focus.ime', 'input:not([type]), input[type=text], input[type=search], textarea', function () {
 			var $input = $( this );
 			$input.ime( {
