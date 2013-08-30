@@ -1,9 +1,12 @@
 {
-  "name": "jquery-ime-firefox-extension",
-  "fullName": "jquery.ime-firefox-extension",
-  "id": "jid1-nkH8Kwi3h6Tx1w",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.1"
+	"name": "wikimedia-input-tools",
+	"fullName": "Wikimedia Input Tools",
+	"id": "jid1-nkH8Kwi3h6Tx1w",
+	"description": "Wikimedia Input Tools allows you to type in your native language from among 60+ languages.",
+	"author": "Praveen Singh",
+	"homepage": "https://github.com/pravee-n/jquery.ime-firefox-extension",
+	"icon": "images/icon_32.png",
+	"icon64": "images/icon_64.png",
+	"license": "MPL 2.0",
+	"version": "0.1"
 }
