@@ -1,0 +1,42 @@
+/* override webpage's css for older versions of Firefox */
+
+.uls-title-region a {
+	padding-left: 15px !important;
+}
+
+.uls-menu .uls-title {
+	font-weight: normal !important;
+	border: none !important;
+	padding-top: 1.25em !important;
+	padding-left: 15px !important;
+	padding-bottom: 3px !important;
+	font-size: 18pt !important;
+	line-height: 1.25em !important;
+	color: #555 !important;
+}
+
+.uls-menu .uls-lcd-region-section .uls-lcd-region-title {
+	color: #777 !important;
+	font-size: 14pt !important;
+	font-weight: lighter !important;
+	line-height: 1.5em !important;
+	padding-left: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+	border-bottom: none !important;
+}
+
+.grid .row .offset-by-one {
+	margin-left: 8.333% !important;
+}
+
+.uls-language-list ul li {
+	cursor: pointer !important;
+	font-weight: normal !important;
+	overflow: hidden !important;
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+	text-align: left !important;
+	list-style-image: none !important;
+	list-style-type: none !important;
+}

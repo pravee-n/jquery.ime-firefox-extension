@@ -20,3 +20,29 @@
 .ime-checked .ime-perime-help:hover {
 	opacity: 1;
 }
+
+/* override webpage's css for older versions of Firefox */
+
+.imeselector a,
+.ime-disable {
+	cursor: pointer !important;
+	text-decoration: none !important;
+	outline: none !important;
+	color: #222222 !important;
+	line-height: 1em !important;
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+
+.ime-list-title,
+.ime-lang-title {
+	color: #39d !important;
+	border-bottom: solid 1px #39d !important;
+	text-align: left !important;
+	font-size: larger !important;
+	font-weight: normal !important;
+	padding-bottom: 5px !important;
+	padding-left: 20px !important;
+	padding-top: 9px !important;
+	margin: 0 0 1px !important;
+}
