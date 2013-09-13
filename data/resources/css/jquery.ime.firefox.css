@@ -46,3 +46,14 @@
 	padding-top: 9px !important;
 	margin: 0 0 1px !important;
 }
+
+.imeselector-menu .selectable-row-item {
+	display: block !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	font-weight: normal !important;
+	color: #333333 !important;
+	outline: none !important;
+	white-space: nowrap !important;
+	position: relative !important;
+}

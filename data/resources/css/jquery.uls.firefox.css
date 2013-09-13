@@ -40,3 +40,39 @@
 	list-style-image: none !important;
 	list-style-type: none !important;
 }
+
+.uls-region a {
+	bottom: 2px !important;
+	left: 2px !important;
+	padding: 0 !important;
+	position: absolute !important;
+	font-size: 13px !important;
+	line-height: 1.2em !important;
+	text-decoration: none !important;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	width: 99% !important;
+}
+
+.uls-map-block a {
+	color: #333 !important;
+	opacity: 0 !important;
+	-moz-transition: opacity 0.15s linear !important;
+	-o-transition: opacity 0.15s linear !important;
+	-webkit-transition: opacity 0.15s linear !important;
+	transition: opacity 0.15s linear !important;
+}
+
+.uls-menu .uls-map-block:hover,
+.uls-menu .uls-map-block:hover a {
+	opacity: 1 !important;
+	color: #333 !important;
+}
+
+.uls-language-list a {
+	font-weight: normal !important;
+	text-decoration: none !important;
+	color: #3366bb !important;
+	font-size: 14px !important;
+	line-height: 1.6em !important;
+}
