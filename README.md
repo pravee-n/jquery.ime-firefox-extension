@@ -6,6 +6,11 @@ Mozilla Firefox browser extension for jquery.ime input method library
 [jQuery.IME](https://github.com/wikimedia/jquery.ime) is an input method editor library that currently supports more than 150 input methods. It is the jQuery 
 version of the input method tool used in Wikimedia projects, a.k.a. Narayam.
 
+Download the extension from Mozilla Add-ons repository
+-------------------
+
+https://addons.mozilla.org/en-US/firefox/addon/wikimedia-input-tools/
+
 Get the source code
 -------------------
 Clone the repository:
